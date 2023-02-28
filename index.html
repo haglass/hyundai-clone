@@ -44,16 +44,17 @@
     <meta property="og:url" content="https://www.hyundaigroup.com" />
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
-      <!-- Link Swiper's CSS -->
+    <![endif]-->
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <![endif]-->
-    <script src="js/prefixfree.min.js"></script>
-    <script src="js/respond.min.js"></script>
+
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -67,12 +68,12 @@
             <img src="images/logo2.png" alt="현대그룹" />
           </a>
           <div class="header-right">
-            <a href="#" class="metaword">
-              <img src="images/metaverse.png" alt="메타월드" />
+            <a href="#" class="metaworld">
+              <img src="images/metaverse.png" alt="메타월등" />
             </a>
             <ul class="language">
               <li><a href="#">KOR</a></li>
-              <li><a href="#">GNB</a></li>
+              <li><a href="#">ENG</a></li>
             </ul>
             <button class="bt-menu">menu</button>
           </div>
@@ -109,7 +110,10 @@
             </div>
             <div class="swiper-slide">
               <video playsinline="" muted="" poster="">
-                <source src="./assets/movie/web_main_video_04 />
+                <source
+                  src="./assets/movie/web_main_video_04.mp4"
+                  type="video/mp4"
+                />
               </video>
             </div>
             <div class="swiper-slide">
@@ -146,43 +150,64 @@
             </div>
           </div>
         </div>
+        <!-- Control -->
         <div class="inner">
-            <ul class="visual-control">
-                <li>
-                  <span class="visual-bt">Hyundai Group</span>
-                </li>
-                <li>
-                  <span class="visual-bt">Hyundai Elevator</span>
-                </li>
-                <li>
-                  <span class="visual-bt">Hyundai Asan</span>
-                </li>
-                <li>
-                  <span class="visual-bt">Hyundai Movex</span>
-                </li>
-                <li class="active">
-                  <span class="visual-bt">Hyundai Research Institute</span>
-                </li>
-                <li>
-                  <span class="visual-bt">Able Hyundai<br />Hotel &amp; Resort</span>
-                </li>
-                <li>
-                  <span class="visual-bt">Bloomvista<br />Hotel &amp; Conference</span>
-                </li>
-                <li>
-                  <span class="visual-bt">Hyundai Global</span>
-                </li>
-              </ul>
+          <ul class="visual-control">
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt">Hyundai Group</span>
+            </li>
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt">Hyundai Elevator</span>
+            </li>
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt">Hyundai Asan</span>
+            </li>
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt">Hyundai Movex</span>
+            </li>
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt">Hyundai Research Institute</span>
+            </li>
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt"
+                >Able Hyundai<br />Hotel &amp; Resort</span
+              >
+            </li>
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt"
+                >Bloomvista<br />Hotel &amp; Conference</span
+              >
+            </li>
+            <li>
+              <span class="bar"></span>
+              <span class="visual-bt">Hyundai Global</span>
+            </li>
+          </ul>
         </div>
       </section>
       <!-- 뉴스 -->
-      <section class="news"><div class="inner"></div></section>
+      <section class="news">
+        <div class="inner"></div>
+      </section>
       <!-- 비즈니스 -->
-      <section class="business"><div class="inner"></div></section>
+      <section class="business">
+        <div class="inner"></div>
+      </section>
       <!-- 미디어 -->
-      <section class="mcenter"><div class="inner"></div></section>
+      <section class="mcenter">
+        <div class="inner"></div>
+      </section>
       <!-- 하단 -->
-      <footer class="footer"><div class="inner"></div></footer>
+      <footer class="footer">
+        <div class="inner"></div>
+      </footer>
     </div>
   </body>
 </html>
