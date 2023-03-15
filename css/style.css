@@ -46,7 +46,7 @@ body {
 
 /* 안내창 */
 body {
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 body.active {
   overflow-y: auto;
